@@ -5,7 +5,16 @@
     1)结构体的大小=每个属性之和
     2)初始化一：
         属性是char name[20]; 赋值strcmp(name, "")
-        其它*/
+        其它基本属性的赋值 变量名.属性名=值;
+    3)初始化二：
+        Student s{}; 大括号中的值和属性一一对应
+    4)定义变量的方式
+        Student s;  结构体名 变量名;
+        struct Student{}s1, s2; 定义结构体时定义变量
+    5)typedef struct Student{}stu;
+        stu是结构体Student的名称。
+        typedef用来定义类型。
+*/
 #include<iostream>
 using namespace std;
 #include<cstring>
